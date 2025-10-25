@@ -19,7 +19,7 @@ async function bootstrap() {
 
   // ✅ CORS setup for frontend
   app.enableCors({
-    origin: ['http://localhost:3001'], // your Next.js frontend port
+    origin: ['https://cloud-overwatch.vercel.app'], // your Next.js frontend port
     methods: 'GET,POST,PUT,DELETE',
     credentials: true,
   });
