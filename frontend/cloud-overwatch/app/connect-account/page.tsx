@@ -73,7 +73,7 @@ export default function ConnectAccountPage() {
       {
         Sid: 'AllowCloudOverwatchAssumeRole',
         Effect: 'Allow',
-        Principal: { AWS: 'arn:aws:iam::104573823385:root' },
+        Principal: { AWS: 'arn:aws:iam::1234567890:root' },
         Action: 'sts:AssumeRole',
         Condition: {
           StringEquals: { 'sts:ExternalId': externalId },
